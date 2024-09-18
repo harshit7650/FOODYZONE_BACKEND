@@ -104,7 +104,6 @@ app.get("/", (req, res) => {
       type: "lunch",
     },
   ];
-
   res.json(foodData);
 });
 
