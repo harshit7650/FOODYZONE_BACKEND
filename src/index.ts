@@ -96,13 +96,13 @@ app.get("/", (req, res) => {
       image: "/images/pancake.png",
       type: "dinner",
     },
-    {
-      name: "Dosa",
-      price: 20,
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
-      image: "/images/dosa.png",
-      type: "lunch",
-    },
+    // {
+    //   name: "Dosa",
+    //   price: 20,
+    //   text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+    //   image: "/images/dosa.png",
+    //   type: "lunch",
+    // },
   ];
   res.json(foodData);
 });
